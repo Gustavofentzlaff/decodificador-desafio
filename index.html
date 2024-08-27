@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="assets/Frame 6.png">
+    </header>    
+    <main class="container">
+        <section class="container__esquerda">    
+            <textarea id="inputTexto" class="container__esquerda__input">Digite aqui a sua mensagem.</textarea>
+                <div class="container__esquerda__final">
+                    <div class="container__esquerda__final__aviso">
+                        <img src="./assets/bi_exclamation-circle-fill.png"> 
+                        Apenas letras minúsculas e sem acento.
+                    </div>
+                    <div class="container__esquerda__final__botoes">
+                        <button onclick="criptografar()" class="container__esquerda__final__botoes__criptografar">Criptografar</button>
+                        <button onclick="descriptografar()" class="container__esquerda__final__botoes__descriptografar">Descriptografar</button>
+                    </div>
+                </div>
+            </section> 
+
+        <section class="container__resposta">
+            <img id="imagemLupa" src="./assets/High quality products 1 1.png" alt="personagem segurando uma lupa">
+            <h1  id="textoRespostaTitulo" class="container__resposta__texto1">Nenhuma mensagem encontrada</h1>
+            <p id="textoRespostaParagrafo" class="container__resposta__texto2">Digite a mensagem que você deseja criptografar ou descriptografar</p>
+        </section>
+      
+    </main>
+<footer class="rodape">
+    <p>Desenvolvido por Gustavo Fentzlaff</p>
+</footer>    
+    <script src="app.js" defer></script>    
+</body>
+
+</html>

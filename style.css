@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+.cabecalho{
+    padding: 2% 0% 0% 2%
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #e5e5e5;
+    }
+
+.container{
+    padding: 2% 8%;          
+    display: flex;
+    align-items: center;
+    gap: 80px           
+}
+
+.container__esquerda{
+    padding-top: 5%;    
+    display: flex;
+    flex-direction: column;
+    gap:400px;    
+}
+
+.container__esquerda__input{
+    border: none;
+    outline: none;
+    background-color: #e5e5e5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #0A3871;
+    text-wrap: balance;
+}
+
+.container__esquerda__final{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.container__esquerda__final__aviso{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #495057;
+}
+
+.container__esquerda__final__botoes{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;    
+}
+
+.container__esquerda__final__botoes__criptografar{
+    font-family: "Inter", sans-serif;
+    padding: 24.5px 0;
+    font-size: 1.125rem;
+    color: #ffffff;
+    background-color: #0A3871;
+    width: 328px;
+    border-radius: 24px;
+    border: 0    
+}
+
+.container__esquerda__final__botoes__descriptografar{
+    font-family: "Inter", sans-serif;
+    padding: 24.5px 0;
+    font-size: 1.125rem;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    width: 328px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;    
+}
+
+.container__resposta{ 
+    background-color: #ffffff;
+    padding: 1%;
+    width: 500px;
+    height: 600px;
+    border: none;    
+    border-radius: 32px;         
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;
+    text-align: center;
+    gap:16px;
+    }
+
+
+.container__resposta__texto1{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #343A40;
+    text-wrap: wrap; 
+}
+
+.container__resposta__texto2{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #343A40;     
+}
+
+.rodape{
+    color: #0A3871;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    width: auto;    
+    font-size: 1.0rem;
+    background-color: #e5e5e5;
+}
